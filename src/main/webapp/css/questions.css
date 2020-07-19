@@ -1,0 +1,281 @@
+/*
+teal
+46797a
+
+blue 
+347999
+
+palegreen
+9dae88
+
+verypaleteal
+cedadb
+
+
+paleblue
+779eb0
+
+
+*/
+
+body {background-color:#fff;background-image:url(/wsimages/backgroundTile.gif);color:#333;font-family: "Raleway",Arial,sans-serif;font-size:14px;}
+
+.btn, .popover{font-family:"Raleway",Arial,sans-serif;}
+
+.logo h1 {
+	font-family:"Raleway",Arial,sans-serif;
+}
+
+.logo h1, .logo p {
+/*	font-variant: small-caps; */
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align:center;
+	letter-spacing: 10px; 
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.50);
+}
+
+h1 {
+	font-weight: 500;	
+}
+a {
+	color: #4c9091;
+}
+a:focus, a:hover {
+	color: #9dae88;
+}
+
+
+
+.brand {
+    padding-top: 10px !important;
+}
+
+.navbar {
+	background: #fff; 
+}
+
+.mainTabs {
+/*	background: #fff; */
+    margin: 0 auto 0px auto;
+    padding: 0 0 0px 0;
+    position: relative;
+}
+.main {
+	background:#46797a;
+	color:#fff;
+	font-size:12pt
+}
+.main-default {
+	background:#46797a;
+	color:#fff;
+}
+.main-blue {
+	background:#347999;
+	color:#fff;
+}
+.main-assignment {
+	background:#fcf8e3;
+	color: #8a6d3b;
+}
+
+.main .modal-header,.main .page-header {
+    border-bottom: 1px solid #386b6c;
+}
+.main-default .modal-header,.main-default .page-header {
+    border-bottom: 1px solid #386b6c;
+}
+.main-blue .modal-header,.main-blue .page-header {
+    border-bottom: 1px solid #2a6b89;
+}
+.main-assignment .modal-header,.main-assignment .page-header {
+    border-bottom: 1px solid #faebcc;
+}
+/*
+*/
+
+.main .page-header {
+    border-bottom: 1px solid #386b6c;
+}
+.main-default .page-header {
+    border-bottom: 1px solid #386b6c;
+}
+.main-blue .page-header {
+    border-bottom: 1px solid #2a6b89;
+}
+.main-assignment .page-header {
+    border-bottom: 1px solid #faebcc;
+}
+
+.mainFooter {
+	background:#fff;
+	color: #333;
+	font-size:10pt
+}
+
+.main a {
+	color: #bed0a7;
+}
+.main a:focus, .main a:hover {
+	color: #9dae88;
+}
+
+.main .alert a {
+	color: #337ab7;
+}
+.main .alert a:focus, .main .alert a:hover {
+	color: #337ab7;
+}
+
+
+
+.mainFooter a {
+	color: #4c9091;
+}
+.pager li>a, .pager li>span {
+	color: #46797a;
+}
+
+.main small {
+	font-size: 9pt;
+}
+
+.main .loadmask {
+    background-color: #46797a;
+}
+.main-default .loadmask{
+    background-color: #46797a;
+}
+.main-blue .loadmask{
+    background-color: #347999;
+}
+.main-assignment .loadmask {
+	background-color:#fcf8e3;
+}
+
+
+#fc-modal-content.main-default .modal-header .close, #fc-modal-content.main-blue .modal-header .close{
+    color: #fff;
+}
+
+.main .farcry-objectadmin {
+	background-color: #fff;
+	color: #333
+}
+.main a.btn {
+	color: #fff; 
+}
+.main a.btn-default {
+	color: #333; 
+}
+
+.main .well {
+	color: #fff;
+    background-color: transparent;
+}
+.main .well-white {
+	color: #46797a;
+    background-color: #fff;
+}
+
+.popover, .tooltip {
+	color: #111;
+}
+
+.main .help-block {
+	font-size: 10pt;
+	color: #aaa;
+}
+
+/* can't use #tab-pane-today as it needs to be relevant for modals */
+.activityDefHolder {
+}
+
+
+#tab-pane-thisweek {
+}
+
+.highlight {
+	color: #9dae88;
+}
+
+th.highlight, td.highlight {
+	background-color:  #9dae88;
+	color: #fff;
+}
+
+h1.highlight, h2.highlight, h3.highlight, h4.highlight, h5.highlight {
+	color: #333;
+	font-variant: small-caps;
+	font-weight: 600;
+	letter-spacing: 8px; 
+}
+
+.alert-well { /* white outline like well */
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+
+.alert-primary { /* blue box - like highlightBoxonYellow */
+  color: #fff;
+  background-color: #347999;
+  border-color: #e3e3e3;
+}
+
+.alert-default { /* green box - like highlightBoxonBlue */
+  color: #fff;
+  background-color: #9dae88;
+  border-color: #ddd;
+}
+
+.highlightBoxOnYellow {
+	background-color:  #347999;/* #9dae88; */
+	padding:10px;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	margin-bottom:10px;
+}
+.highlightBoxOnBlue {
+	background-color:  #9dae88;
+	padding:10px;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	margin-bottom:10px;
+}
+.highlightBoxPink, .highlightBoxWhite {
+	background-color: white;
+	padding:10px;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	margin-bottom:10px;
+}
+
+
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #fddee5;
+}
+
+.has-error .checkbox,.main-assignment .has-error .checkbox-inline,.main-assignment .has-error .control-label,.main-assignment .has-error .help-block,.main-assignment .has-error .radio,.main-assignment .has-error .radio-inline,.main-assignment .has-error.checkbox label,.main-assignment .has-error.checkbox-inline label,.main-assignment .has-error.radio label,.main-assignment .has-error.radio-inline label {
+    color: inherit;
+}
+
+blockquote .small, blockquote footer, blockquote small {
+    color: #fff;
+}
+
+input {
+	color: black;
+}
+
+.assignment-face img {
+	opacity: 0.8;
+}
+
+.assignment-face-mediacover img {
+	max-width: 90px;
+}
+
+.assignment-face-teaserassignment img {
+	-webkit-filter: invert; /*grayscale, sepia, hue-rotate, invert....*/
+/*	-webkit-filter: brightness(50%);  */
+}

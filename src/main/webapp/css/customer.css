@@ -1,0 +1,254 @@
+.logo
+{
+width:100px;
+height:100px;
+float:left;
+}
+
+
+.logoimage
+{
+width:100px;
+height:100px;
+}
+
+
+
+.message
+{
+background-color:yellow;
+width:1450px;
+height:100px;
+color:#AB8421;
+font-size:33px;
+font-style:italic;
+position:inherit;
+text-align:center;
+}
+
+.errMsg
+{
+background-color:pink;
+width:800px;
+height:50px;
+color:red;
+font-size:20px;
+font-style:italic;
+text-align:center;
+		
+}
+
+
+welcomepage
+{
+width:5450px;
+height:200px;
+}
+
+
+
+.webinfo 
+{
+background-color:green;
+font-size:20px;
+width:1000px;
+height:200px;
+}
+
+.empty
+{
+height:100px;
+background-color:#B8860B
+}
+
+#confirmationMessage
+{
+background-color:#FFFF00;
+color:#000000;
+font-style:italic;
+font-size:20px;
+width:300px;
+height:50px;
+
+}
+.login
+{
+	align:center;
+	background-color: aqua;
+	color: blue;
+	width:700px;
+}
+input[type=submit] {
+	padding:5px 15px; 
+	background:#40FF00;
+	 border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+color:black;
+font-family: serif;
+font-weight: bold;
+}
+
+.errMessage
+{
+background-color:#FFFF00;
+color:#000000;
+font-style:italic;
+font-size:20px;
+width:300px;
+height:50px;
+}
+
+.register
+{
+align:center;
+color: blue;
+width:400px;
+background-color:aqua;
+font-style:bold;
+font-weight:bold;
+font-size:22px;
+}
+
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+
+.linkCss
+{
+color:blue;
+
+margin-left: 59px;
+margin-right: 188px;
+margin-top: 599px;
+margin-bottom: -75px;
+padding-bottom: 130px;
+}
+
+.advitise
+{
+background-color:yellow;
+width:1450px;
+height:100px;
+color:green;
+font-size:33px;
+font-style:bold;
+position:inherit;
+text-align:center;
+}
+
+.partialBlock {
+    display: inline-block;
+    margin: 18px;
+    padding: 20px;
+    border: 1px solid blue;
+    width: 40%;
+    height: 138px;
+    float: left;
+}
+
+.sportsImg{
+	background-image: url('../images/welcomepage/sports.jpg');
+}
+
+.policticsImg{
+	background-image: url('../images/welcomepage/politics.jpg');
+}
+
+.bollywoodImg{
+	background-image: url('../images/welcomepage/bollywood.jpg');
+}
+
+.cloudImg{
+	background-image: url('../images/welcomepage/cloud.jpg');
+}
+
+.programmingImg{
+	background-image: url('../images/welcomepage/programming.jpg');
+}
+
+.romanceImg{
+	background-image: url('../images/welcomepage/romance.jpg');
+}
+
+.fullContent {
+    margin-top: 22px;
+    margin-left: 93px;
+}
+
+a:link.myNav {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    border-bottom: #3371FF 7px solid;
+}
+
+a:hover.myNav{
+	background-color:#83FF33;
+}
+
+
+
+.common{
+margin: 10px;
+height:300px;
+}
+.globalDiv{
+width:1200px;
+border:1px solid blue;
+display:inline-block;
+margin:5px;
+}
+.leftCls{
+width:600px;
+float:left;
+}
+
+.middleCls{
+width: 236px;
+float: left;
+padding: 5px;
+}
+
+.rightCls{
+width:200px;
+float:left;
+}
+
+div.leftCls p{
+text-align:justify;
+margin:5px;
+}
+
+div.leftCls h4{
+	border-bottom:5px solid blue;	
+}
+
+div.middleCls img{
+height:280px;
+}
+
+div.rightCls button {
+    width: 177px;
+    border: 1px solid green;
+    vertical-align: middle;
+    margin-top: 124px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: blue;
+    font-weight: bold;
+    color: white;
+    font-style: normal;
+    height: 17%;
+}
+
+.testUp{
+	margin:1px;
+	height:25px;
+}
+
